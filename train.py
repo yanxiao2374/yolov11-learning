@@ -5,4 +5,4 @@ if __name__ == '__main__':
     model = YOLO("yolo11n.yaml")
 
     # Train the model
-    results = model.train(data="GlobalWheat2020.yaml", epochs=100, imgsz=640)
+    results = model.train(data="GlobalWheat2020.yaml", epochs=100, imgsz=1024)
